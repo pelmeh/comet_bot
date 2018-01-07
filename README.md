@@ -1,7 +1,7 @@
 # Comet bot
 VK BOT: Secret santa game
 
-How it work:
+How it works:
 
 * Everyone send a congratulations to the bot
 * Bot collect all congratulations
