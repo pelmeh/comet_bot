@@ -3,6 +3,7 @@ const { router, clear, count, dispatch, stop } = require('./controller')
 
 const bot = new API(process.env.TOKEN) // Group API key
 
+// Please change command name (ex. `_clear`) or add user_id check for secure
 bot.command('отменить', clear) // delete user and message
 bot.command('_clear', clear) // alias
 bot.command('_stop', stop)  // prevent new dialogs 
